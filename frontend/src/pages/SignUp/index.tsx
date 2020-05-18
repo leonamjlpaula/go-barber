@@ -9,6 +9,7 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import { useToast } from '../../hooks/toast';
+import api from '../../services/api';
 
 import logo from '../../assets/logo.svg';
 import {
@@ -17,7 +18,6 @@ import {
   ImageBackground,
   AnimationContainer,
 } from './styles';
-import api from '../../services/api';
 
 interface UserData {
   name: string;
